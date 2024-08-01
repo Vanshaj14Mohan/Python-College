@@ -94,3 +94,4 @@ book2 = Book("Abc cde", "Himamshu", 290)
 #Display details
 print(book1.display_details())
 print(book2.display_details())
+

@@ -95,3 +95,39 @@ print("--"*10)
 
 #Try for all comparsion operators
 #also check practice problems shared
+print("Mask started.....")
+#Create an array using numpy functions define array with n number of values and elements
+n = np.array([2,1,3,17,18,12,14,15,16,18,20])
+# mask = n > 2
+# mask = n>=5
+# mask = n <=5
+mask = n!=3
+print(mask)
+# filtered = n(mask)
+# print(filtered)
+
+X = np.array([2,4,5,6,7])
+mask =X>5
+print(mask)
+# filtered = X(mask)
+# print(filtered)
+print("--"*10)
+
+print("Boolean arrays.......")
+bool_array = np.array([5, None, 1.25, -2, 0,1])
+print(bool_array)
+
+#Wap to count the numbers of values in the boolean array.
+bool_array1 = np.array([5, 2.0,0,1,None])
+print(bool_array1)
+
+#Wap without loop to count number of true values in a boolean array.
+bool_array3 = np.array([True, False, True, True, False]) 
+print("Boolean Arrays:", bool_array3)
+true_count = np.sum(bool_array3)
+print("Number of true values:", true_count)
+#bool_array = np.array([True, False, True, True, False])  # Create a boolean array
+#("Boolean array:", bool_array)  # Print the boolean array
+
+#true_count = np.sum(bool_array) # Count the number of True values
+#print("Number of True values:", true_count)  # Print the count of True values
