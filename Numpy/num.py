@@ -131,3 +131,16 @@ print("Number of true values:", true_count)
 
 #true_count = np.sum(bool_array) # Count the number of True values
 #print("Number of True values:", true_count)  # Print the count of True values
+print("Fancy Indexing......")
+#Fancy Indexing 
+j= np.array([10,20,30,40,50])
+indices = np.array([1,2,3])
+selected_elements = j[indices]
+print(selected_elements)
+
+# Fancy indexing with a boolean mask
+# mask = np.array([True, False, True, False, True])
+# selected_elements_mask = arr[mask]
+#print(selected_elements_mask)  # Output: [10 30 50]
+
+#Wap to 
