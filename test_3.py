@@ -7,8 +7,8 @@ def compare_arrays(arr1, arr2):
         if arr1[i] != arr2[i]:
             return False
     return True
-arr1 = [1, 2, 3, 4, 5]
-arr2 = [1, 2, 3, 4, 5]
+arr1 = [1, 2, 3, 4, 5,6]
+arr2 = [1, 2, 3, 4, 5,6]
 print(compare_arrays(arr1, arr2))  #True
 
 # Test case 2: Unequal arrays
