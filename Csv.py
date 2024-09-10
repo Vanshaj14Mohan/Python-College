@@ -9,6 +9,7 @@ print(df.head())
 # print(df.head(2))
 #For bottom
 print(df.tail())
+print(df.tail(2))
 # print(df.tail(2))
 #for shape
 print(df.shape)
