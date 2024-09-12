@@ -20,4 +20,5 @@ print(df.values)
 # print(df.index)
 # print(df.info)
 print(df.dtypes)
- 
+
+#Wap to create a window of size 80x56  with bg color green text size 56, font-> times new roman  
