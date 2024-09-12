@@ -10,6 +10,7 @@ root.config(bg="Yellow") #change background color
 
 #Adding label to root window
 label = tk.Label(root, text="Hello Case", font=("Arial", 24))
+label.pack(pady=20) #Padding around the label
 
 
 #Creating button 
