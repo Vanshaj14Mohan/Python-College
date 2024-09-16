@@ -1,8 +1,8 @@
 import numpy as np
-# arr= np.array([10,20,30,40,50])
-# indices = np.array([0,2,4])
-# selected_elements = arr[indices]
-# print(selected_elements)
+arr= np.array([10,20,30,40,50])
+indices = np.array([0,2,4])
+selected_elements = arr[indices]
+print(selected_elements)
 
 #WAP TO FIND MULTIPLE ELEMENTS USING NUMPY FANCY INDEXING ARRAY=[1,2,3,4,5,6,7,8] ELEMENTS TO BE SELECTED =[1,2,5,7]
 arr = np.array([1,2,3,4,5,6,7,8])
