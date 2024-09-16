@@ -1,24 +1,24 @@
-# Var = (1, 2,3, "hello", 5, 6,7, "guys")
-# print(type(Var))
-# print(Var)
-# print(len(Var))
+Var = (1, 2,3, "hello", 5, 6,7, "guys")
+print(type(Var))
+print(Var)
+print(len(Var))
 
-# x1 = []
-# print(type(x1))
-# x1 = [1, 2, 3 , "bananas", 1, 2,3]
-# print(x1)
+x1 = []
+print(type(x1))
+x1 = [1, 2, 3 , "bananas", 1, 2,3]
+print(x1)
 
-# var2 = Var
-# print(var2)
+var2 = Var
+print(var2)
 
 #wap to add any 5 numbers using python 
-# num1 = int(input("enter a number"))
-# num2 = int(input("enter a number"))
-# num3 = float(input("enter a number"))
-# num4 = int(input("enter a number"))
-# num5 = float(input("enter a number"))
-# res = ("Result is:",num1+num2+num3+num4+num4)
-# print(res)
+num1 = int(input("enter a number"))
+num2 = int(input("enter a number"))
+num3 = float(input("enter a number"))
+num4 = int(input("enter a number"))
+num5 = float(input("enter a number"))
+res = ("Result is:",num1+num2+num3+num4+num4)
+print(res)
 
 # initial_value = 0
 # for i in range(520):
@@ -74,8 +74,8 @@
 # print(Calculator.Multiply(5,4))
 # print(Calculator.Divide(12,4))
 
-# name = "Amazing"
-# print(name[::-1])
+name = "Amazing"
+print(name[::-1])
 
 #25/7/243
 class Book:

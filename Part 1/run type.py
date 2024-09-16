@@ -13,7 +13,7 @@ hello()
 # print(num1 + num2)
 
 #Wap for performing different arithmetic performance call func def -> add, sub, mul, divide save this program as c
-import Calculator
+# import Calculator
 def Add(a,b):
     return a+b
 def Mul(a, b):
