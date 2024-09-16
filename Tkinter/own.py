@@ -7,6 +7,7 @@ root = tk.Tk()
 root.title("MY test case")
 #Creating geometry
 root.geometry("500x600")
+root.config(bg="purple")
 
 #creating label widget
 label = tk.Label(root, text="Hello Guys", font=("Times New Roman", 24), fg="yellow", bg="Green")
@@ -20,3 +21,14 @@ button.pack(pady=20)
 
 #Creating main event loop
 root.mainloop()
+
+
+# def on_Click_button():
+#     label.config(text="button was clicked")
+# label = tk.Button(root, text="click me", command=on_Click_Button)
+# button.pack(pady=10)
+
+# root.mainloop()
+
+# label = tk.Label(root,text="hello guys", font=("Arial", 24))
+# label.pack(pady=30)
