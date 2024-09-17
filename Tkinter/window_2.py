@@ -9,7 +9,7 @@ root.geometry("500x600") #width & height
 root.config(bg="Yellow") #change background color
 
 #Adding label to root window
-label = tk.Label(root, text="Hello Case", font=("Arial", 24))
+label = tk.Label(root, text="Hello Case", font=("Arial", 24), fg="green")
 label.pack(pady=20) #Padding around the label
 
 
@@ -25,6 +25,6 @@ def close_app():
     root.quit()
 
 exit_button = tk.Button(root, text="Exit Now", command=close_app)
-exit_button.pack(pady=10)
+exit_button.pack(pady=30)
 
 root.mainloop()
