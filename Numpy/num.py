@@ -12,6 +12,7 @@ print(total)
 mean = np.mean(array)
 print(mean)
 max_value = np.max(array)
+
 print(max_value)
 #1->Explain in detail numpy 
 #2-> Create an array using np and perform addition of any integer value higher than 6.6.
