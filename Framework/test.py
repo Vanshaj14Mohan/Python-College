@@ -10,7 +10,6 @@ def home():
 #Run the app on the local development server
 # if __name__=="__main__":
 #     app.run(debug=True)
-if __name__=="Vanshaj":
+if __name__=="__main__":
     app.run(debug=True)
-    # app.run()
-    
+    app.run()
