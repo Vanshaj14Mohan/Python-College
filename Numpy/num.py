@@ -90,7 +90,7 @@ print("--"*10)
 
 #WAP to compare each element to see if it's greater than equal to 5
 new_type = np.array([1,3,5,7,8,9])
-test_compare = new_type <=5
+test_compare = new_type >=5
 print("result", test_compare)
 print("--"*10)
 
